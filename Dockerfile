@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.6
 
 RUN apt-get -qq update && apt-get -qqy install awscli
 
@@ -15,4 +15,4 @@ RUN ./install-collections.sh
 # you may install collections locally on the host in the build directory
 # and remove this command
 
-CMD /usr/local/bin/cdx-server
+CMD /usr/local/bin/pywb
