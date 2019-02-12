@@ -1,1 +1,1 @@
-web: cdx-server
+web: cdx-server & /usr/local/bin/pywb
